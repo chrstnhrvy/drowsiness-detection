@@ -1,6 +1,8 @@
 # Drowsiness Detection Using Facial Landmark Analysis
 
-A machine learning pipeline for real-time drowsiness detection based on facial landmark metrics. The system extracts Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) features from video frames using MediaPipe and MTCNN, then classifies facial states as **blinking**, **yawning**, or **normal** using multiple ML classifiers.
+A Python-based machine learning pipeline for real-time drowsiness detection using facial landmark analysis. The system extracts Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) features from video frames using MediaPipe and MTCNN, then classifies facial states as **blinking**, **yawning**, or **normal** using multiple ML classifiers (SVM, Naive Bayes, XGBoost, Logistic Regression).
+
+**Built with:** OpenCV · MediaPipe · MTCNN · scikit-learn · XGBoost · imbalanced-learn · TensorFlow · NumPy · Pandas · Matplotlib · joblib
 
 ---
 
