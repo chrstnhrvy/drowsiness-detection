@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (too large for Git)
+data/videos/
+data/extracted_frames/
+data/processed_faces_224_rgb/
+data/labeled_faces/
+data/undersampled_faces/
+data/augmented_faces/
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.zip
+
+# Model files (large binaries — use Git LFS or releases)
+models/*.pkl
+models/*.joblib
+
+# CSV data files
+data/*.csv
+
+# Results / outputs
+results/*.png
+results/*.jpg
